@@ -6,8 +6,8 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import org.springframework.stereotype.Component;
 
-//@Entity
-@Component
+@Entity
+//@Component
 public class Topic {
 
     @Id
