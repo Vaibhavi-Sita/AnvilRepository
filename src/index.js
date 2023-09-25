@@ -1,8 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
+import './index.css'
+
 function Greeting() {
-  return <h2>Hello World</h2>
+  return (
+    <div>
+      <Person />
+      <Message />
+    </div>
+  )
 }
 
 const Person = () => <h2>sita</h2>
