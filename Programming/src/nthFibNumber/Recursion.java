@@ -1,4 +1,4 @@
-// O(2n) - Exponential, as every function calls two other functions.
+package nthFibNumber;// O(2n) - Exponential, as every function calls two other functions.
 
 public class Recursion {
     static int fib(int n)
